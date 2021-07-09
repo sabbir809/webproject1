@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+.container-sa{
+    padding: 3px 5px;
+}
+#kahani{
+    float: right;
+}
+#logo{
+    color: red;
+    letter-spacing: 7px;
+    text-shadow: 1px 2px 6px black;
+    display: initial;
+    font-size: 1.5rem;
+    font-weight: 1oo;
+}
+h1{
+
+font-size: 3rem;
+color: #636b14;
+}
+h2{
+font-size: 2.5rem;
+}
+h3{
+font-size: 4rem;
+}
+li,p,a{
+  font-size: 1.5rem;
+  color: #010a3e;
+}
+.bold-style{
+  
+    color: #673ab7;
+}
+.btn-style{
+  
+    background-color: #9e9e9e;
+    -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+
+.btn-style:hover{
+  cursor: pointer;
+  background-color: linear-gradient(to right, #9c27b0,#8ecdff);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:#5d2613;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #636b14;
+  cursor: pointer;
+
+}
+
+/* our services style ends  */
+
+/* contact us starts here  */
+
+.contact-style {
+  margin: 10rem 0;
+}
+
+label {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.form-control {
+  padding: 2rem 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+#emailHelp,
+::placeholder {
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  font-weight: 600;
+}
